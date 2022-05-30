@@ -28,7 +28,9 @@ SELECT COUNT(title), title
 INTO retiring_titles
 
 FROM unique_titles
+
 GROUP BY title
+
 ORDER BY count DESC;
 
 
